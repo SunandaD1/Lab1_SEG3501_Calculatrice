@@ -1,0 +1,25 @@
+<table>
+  <tr>
+    <td><label for="n1">Premier nombre:</label></td>
+    <td><input id="n1" #n1></td>
+  </tr>
+
+  <tr>
+    <td><label for="n2">Second nombre:</label></td>
+    <td><input id="n2" #n2></td>
+  </tr>
+
+  <tr>
+    <td><label>Résultat:</label></td>
+    <td>{{ result | number:'1.0-2' }}</td>
+  </tr>
+
+  <tr>
+    <td>
+      <button (click)="add(n1.value, n2.value)">+</button>
+      <button (click)="sub(n1.value, n2.value)">-</button>
+      <button (click)="mul(n1.value, n2.value)">*</button>
+      <button (click)="div(n1.value, n2.value)">/</button>
+    </td>
+  </tr>
+</table>

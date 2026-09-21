@@ -11,7 +11,13 @@
 
   <tr>
     <td><label>Résultat:</label></td>
-    <td>{{ result | number:'1.0-2' }}</td>
+    <td>
+      @if (error) {
+        {{ error }}
+      } @else {
+        {{ result | number:'1.0-2' }}
+      }
+    </td>
   </tr>
 
   <tr>

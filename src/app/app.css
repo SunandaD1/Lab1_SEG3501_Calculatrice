@@ -7,3 +7,8 @@
   height: 100vh; /* full page height */
   text-align: center;
 }
+h1 {
+  color: darkcyan;
+  font-family: Arial, sans-serif;
+  margin-bottom: 20px;
+}

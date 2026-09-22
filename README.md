@@ -2,6 +2,33 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.24.
 
+# Description du travail réalisé
+Nous avons développé une application Angular qui fonctionne comme une calculatrice de base, tel que demandé dans l'exercice du laboratoire. L'utilisateur entre deux nombres et choisit une opération (+, −, ×, ÷), puis le résultat s'affiche.
+Un composant Calculator qui contient les quatre opérations (addition, soustraction,
+multiplication, division).
+Les valeurs saisies sont transmises aux méthodes à l'aide de variables de référence de modèle (#n1, #n2).
+Le résultat est affiché avec le pipe number, formaté à deux décimales.
+La division par zéro est gérée : un message (« Division par zéro impossible ») s'affiche au lieu d'un
+résultat invalide.
+Un peu de style basic CSS (couleurs, coins arrondis, effet au survol des boutons) et des tests unitaires pour chaque opération.
+
+# Installation et Exécution
+Installer Node.js (version 20 ou plus) et npm, puis l'Angular CLI :
+npm install -g @angular/cli
+Cloner le dépôt GitHub :
+git clone https://github.com/SunandaD1/Lab1_SEG3501_Calculatrice.git
+cd Lab1_SEG3501_Calculatrice
+Installer les dépendances :
+npm install
+ Démarrer l'application :
+ng serve
+Ouvrir http://localhost:4200 dans un navigateur.
+(Facultatif) Exécuter les tests unitaires :
+ng test
+
+################################################
+###############################################
+##############################################
 ## Development server
 
 To start a local development server, run:

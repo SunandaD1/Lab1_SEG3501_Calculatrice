@@ -1,4 +1,4 @@
-# Lab1Calculator
+# LAB 1 - SEG3502 : Introduction à Angular
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.2.24.
 
